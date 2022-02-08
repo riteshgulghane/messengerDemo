@@ -1,0 +1,43 @@
+{
+  "name": "original-coast-clothing",
+  "version": "1.0.0",
+  "description": "A sample app to show how to build a great Messenger experience!",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "dependencies": {
+    "ansi-regex": "^6.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "i18n": "^0.8.3",
+    "mongoose": "^5.13.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
+  },
+  "repository": {
+    "url": "https://github.com/fbsamples/original-coast-clothing"
+  },
+  "author": "Facebook",
+  "license": "ISC",
+  "keywords": [
+    "messenger",
+    "webhook"
+  ],
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}
